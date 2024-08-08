@@ -1,1 +1,59 @@
+/* Custom CSS for My Portfolio */
+
+/* Customize Bootstrap variables */
+:root {
+    --bs-primary: #007bff;
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    --bs-danger: #dc3545;
+    --bs-warning: #ffc107;
+    --bs-info: #17a2b8;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+}
+
+/* Custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+/* Button hover and focus states */
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries for additional responsiveness */
+@media (min-width: 768px) {
+    header {
+        padding: 4rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        padding: 6rem 0;
+    }
+}
 
